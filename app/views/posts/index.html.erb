@@ -1,6 +1,8 @@
+<% content_for :title, "Post list" %>
 <% content_for :css do %>
     <%= stylesheet_link_tag "post" %>
 <% end %>
+
 <div class="w-100 position-relative">
     <% if flash[:notice] %>
         <div class="alert alert-success alert-dismissible fade show" role="alert">

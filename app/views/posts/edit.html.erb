@@ -1,6 +1,8 @@
+<% content_for :title, "Edit post" %>
 <% content_for :css do %>
     <%= stylesheet_link_tag "post" %>
 <% end %>
+
 <div class="mt-5">
     <% if flash[:notice] %>
         <div class="alert alert-danger alert-dismissible fade show" role="alert">
